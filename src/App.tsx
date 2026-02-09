@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Menu, X, Heart } from 'lucide-react';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import WhyMarrWell from './components/WhyMarrWell';
+import KoleksiTema from './components/KoleksiTema';
 import Gallery from './components/Gallery';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
@@ -110,6 +112,8 @@ function App() {
 
       <Hero />
       <Features />
+      <WhyMarrWell />
+      <KoleksiTema />
       <Gallery />
       <Pricing />
       <Testimonials />

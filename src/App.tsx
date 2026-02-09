@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import WhyMarrWell from './components/WhyMarrWell';
 import KoleksiTema from './components/KoleksiTema';
+import Katalog from './components/Katalog';
+import CTA from './components/CTA';
 import Gallery from './components/Gallery';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
@@ -114,6 +116,8 @@ function App() {
       <Features />
       <WhyMarrWell />
       <KoleksiTema />
+      <Katalog />
+      <CTA />
       <Gallery />
       <Pricing />
       <Testimonials />
